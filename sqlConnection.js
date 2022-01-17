@@ -4,11 +4,11 @@ const mysql = require("mysql");
 
 // Creating connection
 let db_con = mysql.createConnection({
-    host: "localhost",
-    port: 3307,
-    user: "vinn",
-    password: "vinn",
-    database: "vinn_db"
+    host: "192.168.56.56",
+    port: 3306,
+    user: "homestead",
+    password: "secret",
+    database: "scraper_db"
 });
 
 // Connect to MySQL server
